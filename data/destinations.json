@@ -1,0 +1,1178 @@
+[
+  {
+    "name": "Cairo",
+    "country": "Romania",
+    "description": "Experience historic city with vibrant culture. Try cycling, whale watching, stargazing and learn about local traditions. Ideal for solo travelers.",
+    "activities": [
+      "cycling",
+      "whale watching",
+      "stargazing",
+      "sports events"
+    ]
+  },
+  {
+    "name": "Hanoi",
+    "country": "Cyprus",
+    "description": "Discover wellness retreat with stunning stunning architecture. Enjoy hot springs, market tours, volcano tours and explore authentic experiences. Ideal for culture enthusiasts.",
+    "activities": [
+      "hot springs",
+      "market tours",
+      "volcano tours",
+      "temple visits",
+      "music venues",
+      "ice skating"
+    ]
+  },
+  {
+    "name": "Oslo",
+    "country": "Hungary",
+    "description": "A vibrant mountain retreat destination offering vibrant culture. Experience city tours, sunset viewing, yoga and immerse yourself in culinary delights. Perfect for solo travelers.",
+    "activities": [
+      "city tours",
+      "sunset viewing",
+      "yoga",
+      "diving"
+    ]
+  },
+  {
+    "name": "Budapest",
+    "country": "Romania",
+    "description": "Discover historic city with stunning breathtaking views. Enjoy desert tours, hiking, wildlife viewing and explore cultural heritage. Ideal for food lovers.",
+    "activities": [
+      "desert tours",
+      "hiking",
+      "wildlife viewing",
+      "art galleries"
+    ]
+  },
+  {
+    "name": "Hanoi",
+    "country": "Ireland",
+    "description": "Discover historic city with stunning rich history. Enjoy market tours, safari, skiing and explore local traditions. Ideal for families.",
+    "activities": [
+      "market tours",
+      "safari",
+      "skiing",
+      "sushi dining",
+      "cave exploration"
+    ]
+  },
+  {
+    "name": "Bucharest",
+    "country": "Belarus",
+    "description": "Experience adventure destination with breathtaking views. Try festivals, street food tours, city tours and learn about artistic scene. Ideal for solo travelers.",
+    "activities": [
+      "festivals",
+      "street food tours",
+      "city tours"
+    ]
+  },
+  {
+    "name": "Barcelona",
+    "country": "Malta",
+    "description": "Discover wellness retreat with stunning breathtaking views. Enjoy yoga, garden tours, rock climbing and explore artistic scene. Ideal for families.",
+    "activities": [
+      "yoga",
+      "garden tours",
+      "rock climbing",
+      "casinos",
+      "kayaking",
+      "sports events"
+    ]
+  },
+  {
+    "name": "Istanbul",
+    "country": "Afghanistan",
+    "description": "Visit cultural hub known for rich history. Engage in wine tasting, shopping, cooking classes and experience culinary delights. Perfect for solo travelers.",
+    "activities": [
+      "wine tasting",
+      "shopping",
+      "cooking classes",
+      "zip-lining",
+      "spa treatments",
+      "safari"
+    ]
+  },
+  {
+    "name": "Tel Aviv",
+    "country": "Kenya",
+    "description": "Experience historic city with world-class cuisine. Try garden tours, skiing, cycling and learn about artistic scene. Ideal for couples.",
+    "activities": [
+      "garden tours",
+      "skiing",
+      "cycling"
+    ]
+  },
+  {
+    "name": "Oslo",
+    "country": "Hong Kong",
+    "description": "A vibrant coastal town destination offering world-class cuisine. Experience skiing, ice skating, temple visits and immerse yourself in authentic experiences. Perfect for families.",
+    "activities": [
+      "skiing",
+      "ice skating",
+      "temple visits"
+    ]
+  },
+  {
+    "name": "Kyoto",
+    "country": "Estonia",
+    "description": "Discover coastal town with stunning breathtaking views. Enjoy island hopping, sushi dining, bungee jumping and explore authentic experiences. Ideal for culture enthusiasts.",
+    "activities": [
+      "island hopping",
+      "sushi dining",
+      "bungee jumping",
+      "cruise tours"
+    ]
+  },
+  {
+    "name": "Berlin",
+    "country": "Jordan",
+    "description": "Explore historic city featuring vibrant culture. Participate in wildlife viewing, spa treatments, art galleries and discover local traditions. Great for solo travelers.",
+    "activities": [
+      "wildlife viewing",
+      "spa treatments",
+      "art galleries"
+    ]
+  },
+  {
+    "name": "Zurich",
+    "country": "China",
+    "description": "A vibrant historic city destination offering vibrant culture. Experience adventure tours, desert tours, seafood dining and immerse yourself in local traditions. Perfect for couples.",
+    "activities": [
+      "adventure tours",
+      "desert tours",
+      "seafood dining",
+      "beach volleyball"
+    ]
+  },
+  {
+    "name": "Rio de Janeiro",
+    "country": "Greece",
+    "description": "Explore adventure destination featuring beautiful landscapes. Participate in train journeys, hot springs, diving and discover local traditions. Great for adventure seekers.",
+    "activities": [
+      "train journeys",
+      "hot springs",
+      "diving",
+      "horseback riding",
+      "theater"
+    ]
+  },
+  {
+    "name": "Valletta",
+    "country": "Romania",
+    "description": "Visit mountain retreat known for rich history. Engage in cooking classes, surfing, hiking and experience cultural heritage. Perfect for food lovers.",
+    "activities": [
+      "cooking classes",
+      "surfing",
+      "hiking"
+    ]
+  },
+  {
+    "name": "Barcelona",
+    "country": "Saudi Arabia",
+    "description": "Experience tropical paradise with breathtaking views. Try festivals, fine dining, beaches and learn about authentic experiences. Ideal for culture enthusiasts.",
+    "activities": [
+      "festivals",
+      "fine dining",
+      "beaches",
+      "spa treatments",
+      "snorkeling",
+      "ice skating"
+    ]
+  },
+  {
+    "name": "Sofia",
+    "country": "Ireland",
+    "description": "Experience mountain retreat with beautiful landscapes. Try horseback riding, bar hopping, bungee jumping and learn about authentic experiences. Ideal for solo travelers.",
+    "activities": [
+      "horseback riding",
+      "bar hopping",
+      "bungee jumping",
+      "nightlife",
+      "snowboarding"
+    ]
+  },
+  {
+    "name": "Shanghai",
+    "country": "Afghanistan",
+    "description": "Discover cosmopolitan city with stunning world-class cuisine. Enjoy desert tours, seafood dining, water sports and explore artistic scene. Ideal for couples.",
+    "activities": [
+      "desert tours",
+      "seafood dining",
+      "water sports",
+      "ice skating",
+      "paragliding"
+    ]
+  },
+  {
+    "name": "Islamabad",
+    "country": "Thailand",
+    "description": "Explore historic city featuring rich history. Participate in island hopping, spa treatments, photography tours and discover cultural heritage. Great for culture enthusiasts.",
+    "activities": [
+      "island hopping",
+      "spa treatments",
+      "photography tours"
+    ]
+  },
+  {
+    "name": "Phnom Penh",
+    "country": "Portugal",
+    "description": "Discover mountain retreat with stunning stunning architecture. Enjoy volcano tours, photography tours, yoga and explore local traditions. Ideal for food lovers.",
+    "activities": [
+      "volcano tours",
+      "photography tours",
+      "yoga",
+      "city tours"
+    ]
+  },
+  {
+    "name": "Kabul",
+    "country": "Estonia",
+    "description": "Explore coastal town featuring stunning architecture. Participate in fine dining, spa treatments, whale watching and discover artistic scene. Great for families.",
+    "activities": [
+      "fine dining",
+      "spa treatments",
+      "whale watching"
+    ]
+  },
+  {
+    "name": "Beijing",
+    "country": "Morocco",
+    "description": "Explore cultural hub featuring world-class cuisine. Participate in Northern Lights viewing, diving, bar hopping and discover artistic scene. Great for culture enthusiasts.",
+    "activities": [
+      "Northern Lights viewing",
+      "diving",
+      "bar hopping",
+      "stargazing"
+    ]
+  },
+  {
+    "name": "Lagos",
+    "country": "United States",
+    "description": "Experience cultural hub with rich history. Try sports events, photography tours, wildlife viewing and learn about culinary delights. Ideal for families.",
+    "activities": [
+      "sports events",
+      "photography tours",
+      "wildlife viewing",
+      "street food tours",
+      "tea ceremonies",
+      "water sports"
+    ]
+  },
+  {
+    "name": "Casablanca",
+    "country": "Kenya",
+    "description": "Visit wellness retreat known for stunning architecture. Engage in skiing, cultural experiences, bar hopping and experience cultural heritage. Perfect for photography enthusiasts.",
+    "activities": [
+      "skiing",
+      "cultural experiences",
+      "bar hopping",
+      "diving",
+      "whale watching",
+      "hot springs"
+    ]
+  },
+  {
+    "name": "Sharjah",
+    "country": "Norway",
+    "description": "Visit historic city known for vibrant culture. Engage in opera, stargazing, snowboarding and experience artistic scene. Perfect for food lovers.",
+    "activities": [
+      "opera",
+      "stargazing",
+      "snowboarding",
+      "beaches",
+      "water sports",
+      "cultural experiences"
+    ]
+  },
+  {
+    "name": "Tuscany",
+    "country": "Afghanistan",
+    "description": "Discover cultural hub with stunning rich history. Enjoy festivals, safari, bar hopping and explore cultural heritage. Ideal for photography enthusiasts.",
+    "activities": [
+      "festivals",
+      "safari",
+      "bar hopping",
+      "culinary tours"
+    ]
+  },
+  {
+    "name": "Marrakech",
+    "country": "Bangladesh",
+    "description": "Explore wellness retreat featuring vibrant culture. Participate in hot springs, glacier tours, bungee jumping and discover artistic scene. Great for culture enthusiasts.",
+    "activities": [
+      "hot springs",
+      "glacier tours",
+      "bungee jumping",
+      "casinos",
+      "fishing"
+    ]
+  },
+  {
+    "name": "Kabul",
+    "country": "Bangladesh",
+    "description": "Explore adventure destination featuring breathtaking views. Participate in jazz clubs, hiking, skiing and discover artistic scene. Great for couples.",
+    "activities": [
+      "jazz clubs",
+      "hiking",
+      "skiing",
+      "festivals",
+      "whale watching",
+      "historical tours"
+    ]
+  },
+  {
+    "name": "Zagreb",
+    "country": "Finland",
+    "description": "A vibrant historic city destination offering breathtaking views. Experience cruise tours, helicopter tours, jazz clubs and immerse yourself in culinary delights. Perfect for adventure seekers.",
+    "activities": [
+      "cruise tours",
+      "helicopter tours",
+      "jazz clubs"
+    ]
+  },
+  {
+    "name": "Geneva",
+    "country": "Nigeria",
+    "description": "Explore tropical paradise featuring stunning architecture. Participate in ice skating, fishing, museums and discover artistic scene. Great for food lovers.",
+    "activities": [
+      "ice skating",
+      "fishing",
+      "museums",
+      "hiking",
+      "whale watching"
+    ]
+  },
+  {
+    "name": "Minsk",
+    "country": "United Kingdom",
+    "description": "Experience mountain retreat with world-class cuisine. Try bar hopping, helicopter tours, kayaking and learn about local traditions. Ideal for solo travelers.",
+    "activities": [
+      "bar hopping",
+      "helicopter tours",
+      "kayaking",
+      "nightlife",
+      "train journeys",
+      "skiing"
+    ]
+  },
+  {
+    "name": "Taipei",
+    "country": "Portugal",
+    "description": "Discover cosmopolitan city with stunning breathtaking views. Enjoy spa treatments, safari, theater and explore authentic experiences. Ideal for photography enthusiasts.",
+    "activities": [
+      "spa treatments",
+      "safari",
+      "theater",
+      "snorkeling",
+      "market tours"
+    ]
+  },
+  {
+    "name": "Dublin",
+    "country": "Monaco",
+    "description": "Visit wellness retreat known for beautiful landscapes. Engage in theater, golf, horseback riding and experience cultural heritage. Perfect for adventure seekers.",
+    "activities": [
+      "theater",
+      "golf",
+      "horseback riding",
+      "street food tours",
+      "city tours",
+      "fine dining",
+      "balloon rides"
+    ]
+  },
+  {
+    "name": "Marrakech",
+    "country": "Serbia",
+    "description": "Explore historic city featuring breathtaking views. Participate in market tours, island hopping, bungee jumping and discover local traditions. Great for photography enthusiasts.",
+    "activities": [
+      "market tours",
+      "island hopping",
+      "bungee jumping",
+      "fishing",
+      "water sports",
+      "casinos"
+    ]
+  },
+  {
+    "name": "Sofia",
+    "country": "Bahrain",
+    "description": "A vibrant wellness retreat destination offering breathtaking views. Experience river cruises, bungee jumping, ice skating and immerse yourself in artistic scene. Perfect for culture enthusiasts.",
+    "activities": [
+      "river cruises",
+      "bungee jumping",
+      "ice skating",
+      "helicopter tours",
+      "skydiving",
+      "theater"
+    ]
+  },
+  {
+    "name": "Tuscany",
+    "country": "Greece",
+    "description": "Experience historic city with breathtaking views. Try city tours, Northern Lights viewing, temple visits and learn about local traditions. Ideal for culture enthusiasts.",
+    "activities": [
+      "city tours",
+      "Northern Lights viewing",
+      "temple visits",
+      "train journeys",
+      "skiing",
+      "museums",
+      "kayaking"
+    ]
+  },
+  {
+    "name": "Tallinn",
+    "country": "Hungary",
+    "description": "Discover cultural hub with stunning rich history. Enjoy helicopter tours, sports events, art galleries and explore authentic experiences. Ideal for couples.",
+    "activities": [
+      "helicopter tours",
+      "sports events",
+      "art galleries",
+      "cave exploration",
+      "opera",
+      "cultural experiences"
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "country": "Cambodia",
+    "description": "A vibrant cosmopolitan city destination offering world-class cuisine. Experience museums, sushi dining, surfing and immerse yourself in authentic experiences. Perfect for couples.",
+    "activities": [
+      "museums",
+      "sushi dining",
+      "surfing",
+      "spa treatments"
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "country": "France",
+    "description": "A vibrant adventure destination destination offering beautiful landscapes. Experience jazz clubs, safari, cruise tours and immerse yourself in cultural heritage. Perfect for families.",
+    "activities": [
+      "jazz clubs",
+      "safari",
+      "cruise tours"
+    ]
+  },
+  {
+    "name": "Kathmandu",
+    "country": "Indonesia",
+    "description": "Visit cultural hub known for rich history. Engage in bird watching, street food tours, spa treatments and experience cultural heritage. Perfect for families.",
+    "activities": [
+      "bird watching",
+      "street food tours",
+      "spa treatments",
+      "glacier tours",
+      "museums",
+      "architecture tours"
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "country": "Lebanon",
+    "description": "Visit wellness retreat known for stunning architecture. Engage in snorkeling, golf, market tours and experience cultural heritage. Perfect for couples.",
+    "activities": [
+      "snorkeling",
+      "golf",
+      "market tours",
+      "kayaking"
+    ]
+  },
+  {
+    "name": "Cape Town",
+    "country": "Singapore",
+    "description": "A vibrant tropical paradise destination offering vibrant culture. Experience desert tours, garden tours, adventure tours and immerse yourself in authentic experiences. Perfect for culture enthusiasts.",
+    "activities": [
+      "desert tours",
+      "garden tours",
+      "adventure tours",
+      "paragliding",
+      "tea ceremonies"
+    ]
+  },
+  {
+    "name": "Ho Chi Minh City",
+    "country": "Japan",
+    "description": "Discover tropical paradise with stunning rich history. Enjoy sunset viewing, festivals, skiing and explore culinary delights. Ideal for couples.",
+    "activities": [
+      "sunset viewing",
+      "festivals",
+      "skiing",
+      "island hopping"
+    ]
+  },
+  {
+    "name": "Hanoi",
+    "country": "Slovenia",
+    "description": "Explore cultural hub featuring world-class cuisine. Participate in garden tours, wildlife viewing, yoga and discover cultural heritage. Great for adventure seekers.",
+    "activities": [
+      "garden tours",
+      "wildlife viewing",
+      "yoga",
+      "historical tours",
+      "cave exploration",
+      "stargazing",
+      "wine tasting"
+    ]
+  },
+  {
+    "name": "Beijing",
+    "country": "Netherlands",
+    "description": "Discover mountain retreat with stunning rich history. Enjoy adventure tours, Northern Lights viewing, shopping and explore culinary delights. Ideal for culture enthusiasts.",
+    "activities": [
+      "adventure tours",
+      "Northern Lights viewing",
+      "shopping",
+      "music venues",
+      "kayaking",
+      "festivals"
+    ]
+  },
+  {
+    "name": "Vienna",
+    "country": "Belgium",
+    "description": "Explore cosmopolitan city featuring stunning architecture. Participate in balloon rides, rock climbing, surfing and discover authentic experiences. Great for solo travelers.",
+    "activities": [
+      "balloon rides",
+      "rock climbing",
+      "surfing"
+    ]
+  },
+  {
+    "name": "Rio de Janeiro",
+    "country": "Lebanon",
+    "description": "Explore tropical paradise featuring beautiful landscapes. Participate in train journeys, glacier tours, island hopping and discover artistic scene. Great for adventure seekers.",
+    "activities": [
+      "train journeys",
+      "glacier tours",
+      "island hopping"
+    ]
+  },
+  {
+    "name": "Dublin",
+    "country": "Laos",
+    "description": "Discover historic city with stunning world-class cuisine. Enjoy river cruises, balloon rides, volcano tours and explore artistic scene. Ideal for families.",
+    "activities": [
+      "river cruises",
+      "balloon rides",
+      "volcano tours",
+      "tennis",
+      "island hopping",
+      "shopping"
+    ]
+  },
+  {
+    "name": "Tashkent",
+    "country": "Syria",
+    "description": "Experience coastal town with breathtaking views. Try diving, wine tasting, temple visits and learn about cultural heritage. Ideal for photography enthusiasts.",
+    "activities": [
+      "diving",
+      "wine tasting",
+      "temple visits"
+    ]
+  },
+  {
+    "name": "Kuwait City",
+    "country": "Pakistan",
+    "description": "A vibrant cosmopolitan city destination offering vibrant culture. Experience temple visits, sushi dining, cultural experiences and immerse yourself in culinary delights. Perfect for adventure seekers.",
+    "activities": [
+      "temple visits",
+      "sushi dining",
+      "cultural experiences",
+      "beaches",
+      "architecture tours"
+    ]
+  },
+  {
+    "name": "Casablanca",
+    "country": "Iran",
+    "description": "Experience historic city with stunning architecture. Try Northern Lights viewing, volcano tours, cooking classes and learn about artistic scene. Ideal for culture enthusiasts.",
+    "activities": [
+      "Northern Lights viewing",
+      "volcano tours",
+      "cooking classes"
+    ]
+  },
+  {
+    "name": "Istanbul",
+    "country": "Kenya",
+    "description": "Visit mountain retreat known for world-class cuisine. Engage in golf, zip-lining, spa treatments and experience artistic scene. Perfect for food lovers.",
+    "activities": [
+      "golf",
+      "zip-lining",
+      "spa treatments",
+      "jazz clubs"
+    ]
+  },
+  {
+    "name": "Madrid",
+    "country": "United Kingdom",
+    "description": "Visit wellness retreat known for stunning architecture. Engage in rock climbing, balloon rides, beach volleyball and experience cultural heritage. Perfect for couples.",
+    "activities": [
+      "rock climbing",
+      "balloon rides",
+      "beach volleyball",
+      "sushi dining",
+      "bungee jumping",
+      "cruise tours"
+    ]
+  },
+  {
+    "name": "Cape Town",
+    "country": "Czech Republic",
+    "description": "Discover historic city with stunning rich history. Enjoy stargazing, Northern Lights viewing, island hopping and explore local traditions. Ideal for culture enthusiasts.",
+    "activities": [
+      "stargazing",
+      "Northern Lights viewing",
+      "island hopping"
+    ]
+  },
+  {
+    "name": "Dublin",
+    "country": "Cambodia",
+    "description": "Experience tropical paradise with rich history. Try horseback riding, street food tours, historical tours and learn about cultural heritage. Ideal for photography enthusiasts.",
+    "activities": [
+      "horseback riding",
+      "street food tours",
+      "historical tours",
+      "water sports",
+      "casinos",
+      "cultural experiences"
+    ]
+  },
+  {
+    "name": "Tallinn",
+    "country": "Greece",
+    "description": "Explore wellness retreat featuring stunning architecture. Participate in tennis, spa treatments, architecture tours and discover culinary delights. Great for families.",
+    "activities": [
+      "tennis",
+      "spa treatments",
+      "architecture tours"
+    ]
+  },
+  {
+    "name": "Vientiane",
+    "country": "Uzbekistan",
+    "description": "A vibrant cultural hub destination offering world-class cuisine. Experience temple visits, theater, tennis and immerse yourself in culinary delights. Perfect for culture enthusiasts.",
+    "activities": [
+      "temple visits",
+      "theater",
+      "tennis",
+      "cave exploration"
+    ]
+  },
+  {
+    "name": "Kabul",
+    "country": "United States",
+    "description": "A vibrant adventure destination destination offering vibrant culture. Experience garden tours, nightlife, rafting and immerse yourself in authentic experiences. Perfect for couples.",
+    "activities": [
+      "garden tours",
+      "nightlife",
+      "rafting",
+      "snorkeling",
+      "rock climbing"
+    ]
+  },
+  {
+    "name": "Valletta",
+    "country": "Thailand",
+    "description": "Explore coastal town featuring stunning architecture. Participate in festivals, skiing, train journeys and discover authentic experiences. Great for photography enthusiasts.",
+    "activities": [
+      "festivals",
+      "skiing",
+      "train journeys",
+      "cave exploration"
+    ]
+  },
+  {
+    "name": "Berlin",
+    "country": "Monaco",
+    "description": "Discover tropical paradise with stunning breathtaking views. Enjoy rock climbing, garden tours, Northern Lights viewing and explore authentic experiences. Ideal for culture enthusiasts.",
+    "activities": [
+      "rock climbing",
+      "garden tours",
+      "Northern Lights viewing"
+    ]
+  },
+  {
+    "name": "Vienna",
+    "country": "Vietnam",
+    "description": "Discover coastal town with stunning world-class cuisine. Enjoy nightlife, architecture tours, sushi dining and explore authentic experiences. Ideal for culture enthusiasts.",
+    "activities": [
+      "nightlife",
+      "architecture tours",
+      "sushi dining",
+      "rafting",
+      "cultural experiences",
+      "bar hopping"
+    ]
+  },
+  {
+    "name": "Guangzhou",
+    "country": "Argentina",
+    "description": "Explore historic city featuring world-class cuisine. Participate in water sports, casinos, cycling and discover cultural heritage. Great for food lovers.",
+    "activities": [
+      "water sports",
+      "casinos",
+      "cycling",
+      "hiking",
+      "adventure tours",
+      "street food tours",
+      "temple visits"
+    ]
+  },
+  {
+    "name": "Berlin",
+    "country": "Japan",
+    "description": "Experience adventure destination with vibrant culture. Try sunset viewing, bird watching, fine dining and learn about authentic experiences. Ideal for families.",
+    "activities": [
+      "sunset viewing",
+      "bird watching",
+      "fine dining",
+      "ice skating",
+      "street food tours",
+      "market tours"
+    ]
+  },
+  {
+    "name": "Yangon",
+    "country": "Singapore",
+    "description": "Explore historic city featuring world-class cuisine. Participate in snorkeling, street food tours, beach volleyball and discover artistic scene. Great for culture enthusiasts.",
+    "activities": [
+      "snorkeling",
+      "street food tours",
+      "beach volleyball"
+    ]
+  },
+  {
+    "name": "Jakarta",
+    "country": "Taiwan",
+    "description": "Explore adventure destination featuring beautiful landscapes. Participate in cruise tours, street food tours, tea ceremonies and discover local traditions. Great for families.",
+    "activities": [
+      "cruise tours",
+      "street food tours",
+      "tea ceremonies",
+      "cooking classes"
+    ]
+  },
+  {
+    "name": "Jakarta",
+    "country": "South Korea",
+    "description": "Experience cosmopolitan city with vibrant culture. Try shopping, stargazing, yoga and learn about authentic experiences. Ideal for couples.",
+    "activities": [
+      "shopping",
+      "stargazing",
+      "yoga",
+      "rafting",
+      "sunset viewing",
+      "beach volleyball"
+    ]
+  },
+  {
+    "name": "Hanoi",
+    "country": "Kazakhstan",
+    "description": "Visit cultural hub known for beautiful landscapes. Engage in sunset viewing, hot springs, cave exploration and experience culinary delights. Perfect for couples.",
+    "activities": [
+      "sunset viewing",
+      "hot springs",
+      "cave exploration",
+      "fishing",
+      "glacier tours",
+      "city tours",
+      "cycling"
+    ]
+  },
+  {
+    "name": "Cape Town",
+    "country": "Poland",
+    "description": "Discover coastal town with stunning world-class cuisine. Enjoy rock climbing, culinary tours, whale watching and explore culinary delights. Ideal for photography enthusiasts.",
+    "activities": [
+      "rock climbing",
+      "culinary tours",
+      "whale watching",
+      "fishing",
+      "safari",
+      "snowboarding",
+      "seafood dining"
+    ]
+  },
+  {
+    "name": "Dubai",
+    "country": "Luxembourg",
+    "description": "Discover tropical paradise with stunning beautiful landscapes. Enjoy tennis, safari, tea ceremonies and explore authentic experiences. Ideal for adventure seekers.",
+    "activities": [
+      "tennis",
+      "safari",
+      "tea ceremonies",
+      "garden tours",
+      "street food tours"
+    ]
+  },
+  {
+    "name": "Berlin",
+    "country": "Slovenia",
+    "description": "A vibrant coastal town destination offering stunning architecture. Experience bar hopping, surfing, concerts and immerse yourself in local traditions. Perfect for culture enthusiasts.",
+    "activities": [
+      "bar hopping",
+      "surfing",
+      "concerts",
+      "hiking",
+      "skiing"
+    ]
+  },
+  {
+    "name": "Rome",
+    "country": "Laos",
+    "description": "A vibrant coastal town destination offering rich history. Experience tea ceremonies, music venues, sushi dining and immerse yourself in local traditions. Perfect for families.",
+    "activities": [
+      "tea ceremonies",
+      "music venues",
+      "sushi dining",
+      "wine tasting"
+    ]
+  },
+  {
+    "name": "Vilnius",
+    "country": "Monaco",
+    "description": "Experience mountain retreat with rich history. Try art galleries, helicopter tours, surfing and learn about cultural heritage. Ideal for photography enthusiasts.",
+    "activities": [
+      "art galleries",
+      "helicopter tours",
+      "surfing",
+      "cycling"
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "country": "Oman",
+    "description": "Visit cultural hub known for stunning architecture. Engage in spa treatments, architecture tours, wildlife viewing and experience cultural heritage. Perfect for photography enthusiasts.",
+    "activities": [
+      "spa treatments",
+      "architecture tours",
+      "wildlife viewing",
+      "shopping"
+    ]
+  },
+  {
+    "name": "Amsterdam",
+    "country": "France",
+    "description": "Experience cultural hub with stunning architecture. Try cycling, paragliding, seafood dining and learn about local traditions. Ideal for photography enthusiasts.",
+    "activities": [
+      "cycling",
+      "paragliding",
+      "seafood dining",
+      "ice skating",
+      "diving",
+      "concerts",
+      "hot springs"
+    ]
+  },
+  {
+    "name": "Jeddah",
+    "country": "Netherlands",
+    "description": "Explore cosmopolitan city featuring vibrant culture. Participate in city tours, casinos, cooking classes and discover culinary delights. Great for food lovers.",
+    "activities": [
+      "city tours",
+      "casinos",
+      "cooking classes"
+    ]
+  },
+  {
+    "name": "Phnom Penh",
+    "country": "Sweden",
+    "description": "A vibrant mountain retreat destination offering breathtaking views. Experience sunset viewing, culinary tours, yoga and immerse yourself in local traditions. Perfect for families.",
+    "activities": [
+      "sunset viewing",
+      "culinary tours",
+      "yoga",
+      "museums"
+    ]
+  },
+  {
+    "name": "Zagreb",
+    "country": "Switzerland",
+    "description": "Explore cultural hub featuring rich history. Participate in river cruises, theater, desert tours and discover local traditions. Great for food lovers.",
+    "activities": [
+      "river cruises",
+      "theater",
+      "desert tours"
+    ]
+  },
+  {
+    "name": "Minsk",
+    "country": "Morocco",
+    "description": "A vibrant tropical paradise destination offering world-class cuisine. Experience rock climbing, rafting, opera and immerse yourself in local traditions. Perfect for solo travelers.",
+    "activities": [
+      "rock climbing",
+      "rafting",
+      "opera",
+      "festivals",
+      "music venues",
+      "fishing"
+    ]
+  },
+  {
+    "name": "Budapest",
+    "country": "Singapore",
+    "description": "A vibrant wellness retreat destination offering rich history. Experience street food tours, hot springs, casinos and immerse yourself in authentic experiences. Perfect for photography enthusiasts.",
+    "activities": [
+      "street food tours",
+      "hot springs",
+      "casinos",
+      "safari",
+      "museums",
+      "historical tours",
+      "Northern Lights viewing"
+    ]
+  },
+  {
+    "name": "Kabul",
+    "country": "India",
+    "description": "Discover coastal town with stunning stunning architecture. Enjoy street food tours, horseback riding, balloon rides and explore authentic experiences. Ideal for couples.",
+    "activities": [
+      "street food tours",
+      "horseback riding",
+      "balloon rides",
+      "hot springs"
+    ]
+  },
+  {
+    "name": "Geneva",
+    "country": "Croatia",
+    "description": "Discover coastal town with stunning vibrant culture. Enjoy festivals, fishing, spa treatments and explore local traditions. Ideal for adventure seekers.",
+    "activities": [
+      "festivals",
+      "fishing",
+      "spa treatments",
+      "whale watching",
+      "stargazing",
+      "market tours",
+      "island hopping"
+    ]
+  },
+  {
+    "name": "Manila",
+    "country": "Singapore",
+    "description": "A vibrant wellness retreat destination offering beautiful landscapes. Experience rock climbing, zip-lining, cruise tours and immerse yourself in artistic scene. Perfect for couples.",
+    "activities": [
+      "rock climbing",
+      "zip-lining",
+      "cruise tours",
+      "adventure tours"
+    ]
+  },
+  {
+    "name": "Kuwait City",
+    "country": "Bangladesh",
+    "description": "Visit coastal town known for world-class cuisine. Engage in cruise tours, cycling, stargazing and experience artistic scene. Perfect for couples.",
+    "activities": [
+      "cruise tours",
+      "cycling",
+      "stargazing"
+    ]
+  },
+  {
+    "name": "Rio de Janeiro",
+    "country": "Ukraine",
+    "description": "Experience cultural hub with stunning architecture. Try cultural experiences, spa treatments, shopping and learn about artistic scene. Ideal for solo travelers.",
+    "activities": [
+      "cultural experiences",
+      "spa treatments",
+      "shopping",
+      "zip-lining",
+      "sports events"
+    ]
+  },
+  {
+    "name": "Jeddah",
+    "country": "Cyprus",
+    "description": "Explore cosmopolitan city featuring breathtaking views. Participate in casinos, helicopter tours, island hopping and discover culinary delights. Great for food lovers.",
+    "activities": [
+      "casinos",
+      "helicopter tours",
+      "island hopping",
+      "tea ceremonies"
+    ]
+  },
+  {
+    "name": "Almaty",
+    "country": "Brazil",
+    "description": "Visit coastal town known for beautiful landscapes. Engage in fine dining, river cruises, beaches and experience cultural heritage. Perfect for culture enthusiasts.",
+    "activities": [
+      "fine dining",
+      "river cruises",
+      "beaches"
+    ]
+  },
+  {
+    "name": "Sharjah",
+    "country": "Israel",
+    "description": "A vibrant historic city destination offering breathtaking views. Experience seafood dining, beaches, paragliding and immerse yourself in local traditions. Perfect for families.",
+    "activities": [
+      "seafood dining",
+      "beaches",
+      "paragliding",
+      "cultural experiences",
+      "water sports",
+      "adventure tours"
+    ]
+  },
+  {
+    "name": "Geneva",
+    "country": "Turkey",
+    "description": "A vibrant tropical paradise destination offering vibrant culture. Experience yoga, horseback riding, concerts and immerse yourself in local traditions. Perfect for families.",
+    "activities": [
+      "yoga",
+      "horseback riding",
+      "concerts",
+      "temple visits",
+      "snowboarding"
+    ]
+  },
+  {
+    "name": "Mumbai",
+    "country": "Belarus",
+    "description": "A vibrant tropical paradise destination offering breathtaking views. Experience kayaking, fishing, horseback riding and immerse yourself in cultural heritage. Perfect for adventure seekers.",
+    "activities": [
+      "kayaking",
+      "fishing",
+      "horseback riding"
+    ]
+  },
+  {
+    "name": "Paris",
+    "country": "Russia",
+    "description": "Visit coastal town known for breathtaking views. Engage in surfing, cycling, balloon rides and experience cultural heritage. Perfect for solo travelers.",
+    "activities": [
+      "surfing",
+      "cycling",
+      "balloon rides",
+      "bird watching",
+      "stargazing",
+      "safari"
+    ]
+  },
+  {
+    "name": "Ho Chi Minh City",
+    "country": "Uzbekistan",
+    "description": "Discover adventure destination with stunning breathtaking views. Enjoy sunset viewing, desert tours, snowboarding and explore local traditions. Ideal for food lovers.",
+    "activities": [
+      "sunset viewing",
+      "desert tours",
+      "snowboarding",
+      "art galleries",
+      "Northern Lights viewing",
+      "whale watching"
+    ]
+  },
+  {
+    "name": "Mumbai",
+    "country": "Austria",
+    "description": "Visit wellness retreat known for world-class cuisine. Engage in water sports, horseback riding, music venues and experience culinary delights. Perfect for culture enthusiasts.",
+    "activities": [
+      "water sports",
+      "horseback riding",
+      "music venues",
+      "fine dining",
+      "seafood dining"
+    ]
+  },
+  {
+    "name": "Manila",
+    "country": "Lithuania",
+    "description": "Experience tropical paradise with world-class cuisine. Try paragliding, fishing, ice skating and learn about authentic experiences. Ideal for adventure seekers.",
+    "activities": [
+      "paragliding",
+      "fishing",
+      "ice skating",
+      "water sports",
+      "shopping",
+      "city tours"
+    ]
+  },
+  {
+    "name": "Colombo",
+    "country": "United Kingdom",
+    "description": "Discover adventure destination with stunning vibrant culture. Enjoy tea ceremonies, concerts, stargazing and explore cultural heritage. Ideal for solo travelers.",
+    "activities": [
+      "tea ceremonies",
+      "concerts",
+      "stargazing"
+    ]
+  },
+  {
+    "name": "Manama",
+    "country": "Czech Republic",
+    "description": "A vibrant wellness retreat destination offering stunning architecture. Experience ice skating, shopping, garden tours and immerse yourself in authentic experiences. Perfect for solo travelers.",
+    "activities": [
+      "ice skating",
+      "shopping",
+      "garden tours",
+      "hot springs",
+      "kayaking"
+    ]
+  },
+  {
+    "name": "Beirut",
+    "country": "Finland",
+    "description": "Explore wellness retreat featuring world-class cuisine. Participate in culinary tours, bird watching, market tours and discover authentic experiences. Great for adventure seekers.",
+    "activities": [
+      "culinary tours",
+      "bird watching",
+      "market tours",
+      "garden tours",
+      "city tours",
+      "shopping"
+    ]
+  },
+  {
+    "name": "Zagreb",
+    "country": "Uzbekistan",
+    "description": "Visit tropical paradise known for breathtaking views. Engage in rafting, adventure tours, opera and experience cultural heritage. Perfect for solo travelers.",
+    "activities": [
+      "rafting",
+      "adventure tours",
+      "opera",
+      "zip-lining",
+      "tea ceremonies"
+    ]
+  },
+  {
+    "name": "Seoul",
+    "country": "Croatia",
+    "description": "Visit tropical paradise known for beautiful landscapes. Engage in train journeys, music venues, concerts and experience artistic scene. Perfect for food lovers.",
+    "activities": [
+      "train journeys",
+      "music venues",
+      "concerts",
+      "river cruises",
+      "whale watching"
+    ]
+  },
+  {
+    "name": "Jerusalem",
+    "country": "South Africa",
+    "description": "A vibrant wellness retreat destination offering stunning architecture. Experience cave exploration, golf, ice skating and immerse yourself in artistic scene. Perfect for photography enthusiasts.",
+    "activities": [
+      "cave exploration",
+      "golf",
+      "ice skating",
+      "bird watching",
+      "island hopping",
+      "bar hopping"
+    ]
+  },
+  {
+    "name": "Prague",
+    "country": "UAE",
+    "description": "Discover coastal town with stunning rich history. Enjoy spa treatments, helicopter tours, skydiving and explore authentic experiences. Ideal for culture enthusiasts.",
+    "activities": [
+      "spa treatments",
+      "helicopter tours",
+      "skydiving",
+      "balloon rides"
+    ]
+  }
+]

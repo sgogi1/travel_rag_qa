@@ -1,0 +1,293 @@
+{
+  "baseline_results": [
+    {
+      "query": "Snorkeling near Lisbon",
+      "expected_docs": [
+        "Lisbon"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0
+    },
+    {
+      "query": "Wine tasting in Tuscany",
+      "expected_docs": [
+        "Tuscany",
+        "Marco Rossi"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0
+    },
+    {
+      "query": "City tours in Paris",
+      "expected_docs": [
+        "Paris",
+        "Jean-Pierre Dubois"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0
+    },
+    {
+      "query": "Hiking in Iceland",
+      "expected_docs": [
+        "Iceland",
+        "Sarah Johnson"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0
+    },
+    {
+      "query": "Culinary tours in Tokyo",
+      "expected_docs": [
+        "Tokyo",
+        "Yuki Tanaka"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0
+    },
+    {
+      "query": "Beaches and snorkeling",
+      "expected_docs": [
+        "Lisbon",
+        "Santorini",
+        "Bali"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0
+    },
+    {
+      "query": "Photography tours",
+      "expected_docs": [
+        "Santorini",
+        "Iceland",
+        "Kyoto"
+      ],
+      "retrieved_names": [
+        "Ahmad Garcia",
+        "Jonathan Hernandez",
+        "Kenneth Gomez",
+        "Ahmed Davis",
+        "Isabella Adams",
+        "Gary Baker",
+        "Ryan Diaz",
+        "James Smith",
+        "Maya Walker",
+        "Nicholas Mitchell"
+      ],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "num_retrieved": 10
+    },
+    {
+      "query": "Historical tours in Japan",
+      "expected_docs": [
+        "Tokyo",
+        "Kyoto",
+        "Kenji Yamamoto"
+      ],
+      "retrieved_names": [
+        "Omar Santos",
+        "Marco King",
+        "Mohammed Gomez",
+        "Kenneth Rivera",
+        "Joseph Williams",
+        "Jean-Pierre Sanchez"
+      ],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "num_retrieved": 6
+    }
+  ],
+  "improved_results": [
+    {
+      "query": "Snorkeling near Lisbon",
+      "expected_docs": [
+        "Lisbon"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0,
+      "rewritten_query": {
+        "city": "Lisbon",
+        "country": null,
+        "activities": [
+          "snorkeling"
+        ],
+        "original_query": "Snorkeling near Lisbon"
+      }
+    },
+    {
+      "query": "Wine tasting in Tuscany",
+      "expected_docs": [
+        "Tuscany",
+        "Marco Rossi"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0,
+      "rewritten_query": {
+        "city": null,
+        "country": "Italy",
+        "activities": [
+          "wine tasting"
+        ],
+        "original_query": "Wine tasting in Tuscany"
+      }
+    },
+    {
+      "query": "City tours in Paris",
+      "expected_docs": [
+        "Paris",
+        "Jean-Pierre Dubois"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0,
+      "rewritten_query": {
+        "city": "Paris",
+        "country": null,
+        "activities": [
+          "city tour"
+        ],
+        "original_query": "City tours in Paris"
+      }
+    },
+    {
+      "query": "Hiking in Iceland",
+      "expected_docs": [
+        "Iceland",
+        "Sarah Johnson"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0,
+      "rewritten_query": {
+        "city": null,
+        "country": "Iceland",
+        "activities": [
+          "hiking"
+        ],
+        "original_query": "Hiking in Iceland"
+      }
+    },
+    {
+      "query": "Culinary tours in Tokyo",
+      "expected_docs": [
+        "Tokyo",
+        "Yuki Tanaka"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0,
+      "rewritten_query": {
+        "city": "Tokyo",
+        "country": null,
+        "activities": [
+          "culinary tour"
+        ],
+        "original_query": "Culinary tours in Tokyo"
+      }
+    },
+    {
+      "query": "Beaches and snorkeling",
+      "expected_docs": [
+        "Lisbon",
+        "Santorini",
+        "Bali"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0,
+      "rewritten_query": {
+        "city": null,
+        "country": null,
+        "activities": [
+          "beach",
+          "snorkeling"
+        ],
+        "original_query": "Beaches and snorkeling"
+      }
+    },
+    {
+      "query": "Photography tours",
+      "expected_docs": [
+        "Santorini",
+        "Iceland",
+        "Kyoto"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0,
+      "rewritten_query": {
+        "city": null,
+        "country": null,
+        "activities": [
+          "photography tour"
+        ],
+        "original_query": "Photography tours"
+      }
+    },
+    {
+      "query": "Historical tours in Japan",
+      "expected_docs": [
+        "Tokyo",
+        "Kyoto",
+        "Kenji Yamamoto"
+      ],
+      "retrieved_names": [],
+      "relevant_retrieved": 0,
+      "recall": 0.0,
+      "precision": 0,
+      "num_retrieved": 0,
+      "rewritten_query": {
+        "city": null,
+        "country": "Japan",
+        "activities": [
+          "historical tour"
+        ],
+        "original_query": "Historical tours in Japan"
+      }
+    }
+  ],
+  "summary": {
+    "baseline_avg_recall": 0.0,
+    "improved_avg_recall": 0.0,
+    "baseline_avg_precision": 0.0,
+    "improved_avg_precision": 0.0,
+    "recall_improvement": 0.0,
+    "precision_improvement": 0.0
+  }
+}

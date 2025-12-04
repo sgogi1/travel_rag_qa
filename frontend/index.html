@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency RAG System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .main-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+
+        .search-section {
+            margin-bottom: 30px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .options {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .results-section {
+            margin-top: 30px;
+        }
+
+        .rewritten-query {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+
+        .rewritten-query h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .rewritten-query .field {
+            margin: 5px 0;
+        }
+
+        .rewritten-query .field strong {
+            color: #555;
+        }
+
+        .results-list {
+            display: grid;
+            gap: 15px;
+        }
+
+        .result-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s;
+        }
+
+        .result-card:hover {
+            transform: translateX(5px);
+        }
+
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+
+        .result-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .result-type {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+        }
+
+        .result-meta {
+            color: #666;
+            margin: 8px 0;
+            font-size: 0.95em;
+        }
+
+        .result-description {
+            color: #555;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .result-activities {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .activity-tag {
+            background: #e0e7ff;
+            color: #667eea;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+        }
+
+        .score {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+        }
+
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #c33;
+        }
+
+        .empty {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: #f0f0f0;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 0.9em;
+        }
+
+        .stat strong {
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 Travel Agency RAG System</h1>
+            <p>High-Precision Retrieval for Travel Information</p>
+        </div>
+
+        <div class="main-card">
+            <div class="search-section">
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="queryInput" 
+                        class="search-input" 
+                        placeholder="Ask about destinations, activities, or guides... (e.g., 'Snorkeling near Lisbon')"
+                    >
+                    <button class="btn btn-primary" onclick="performSearch()">Search</button>
+                </div>
+                <div class="options">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="useImproved" checked>
+                        <label for="useImproved">Use Improved Retrieval (Structured + Query Rewriting)</label>
+                    </div>
+                    <button class="btn btn-secondary" onclick="clearResults()">Clear</button>
+                </div>
+            </div>
+
+            <div id="resultsSection" class="results-section" style="display: none;">
+                <div id="stats" class="stats"></div>
+                <div id="rewrittenQuery"></div>
+                <div id="resultsList" class="results-list"></div>
+            </div>
+
+            <div id="loading" class="loading" style="display: none;">
+                Searching...
+            </div>
+
+            <div id="error" class="error" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000/api';
+
+        async function performSearch() {
+            const query = document.getElementById('queryInput').value.trim();
+            if (!query) {
+                alert('Please enter a query');
+                return;
+            }
+
+            const useImproved = document.getElementById('useImproved').checked;
+            
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+
+            try {
+                const response = await fetch(`${API_BASE}/search`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        use_improved: useImproved,
+                        limit: 10
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                displayResults(data);
+
+            } catch (error) {
+                document.getElementById('error').textContent = `Error: ${error.message}`;
+                document.getElementById('error').style.display = 'block';
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        function displayResults(data) {
+            const resultsSection = document.getElementById('resultsSection');
+            const statsDiv = document.getElementById('stats');
+            const rewrittenDiv = document.getElementById('rewrittenQuery');
+            const resultsList = document.getElementById('resultsList');
+
+            resultsSection.style.display = 'block';
+
+            // Stats
+            statsDiv.innerHTML = `
+                <div class="stat">
+                    <strong>Method:</strong> ${data.method}
+                </div>
+                <div class="stat">
+                    <strong>Results:</strong> ${data.num_results}
+                </div>
+            `;
+
+            // Rewritten query (if available)
+            if (data.rewritten_query) {
+                const rq = data.rewritten_query;
+                rewrittenDiv.innerHTML = `
+                    <div class="rewritten-query">
+                        <h3>🔍 Rewritten Query (Structured Filters)</h3>
+                        <div class="field"><strong>City:</strong> ${rq.city || 'None'}</div>
+                        <div class="field"><strong>Country:</strong> ${rq.country || 'None'}</div>
+                        <div class="field"><strong>Activities:</strong> ${rq.activities && rq.activities.length > 0 ? rq.activities.join(', ') : 'None'}</div>
+                    </div>
+                `;
+            } else {
+                rewrittenDiv.innerHTML = '';
+            }
+
+            // Results
+            if (data.results && data.results.length > 0) {
+                resultsList.innerHTML = data.results.map((result, index) => {
+                    const doc = result.document || {};
+                    const activities = result.activities || [];
+                    
+                    return `
+                        <div class="result-card">
+                            <div class="result-header">
+                                <div class="result-title">${result.name || 'Unknown'}</div>
+                                <div class="result-type">${result.doc_type || 'document'}</div>
+                            </div>
+                            <div class="result-meta">
+                                ${result.region ? `<strong>Region:</strong> ${result.region}<br>` : ''}
+                                ${result.country ? `<strong>Country:</strong> ${result.country}<br>` : ''}
+                                <span class="score">Score: ${result.score?.toFixed(3) || 'N/A'}</span>
+                            </div>
+                            ${activities.length > 0 ? `
+                                <div class="result-activities">
+                                    ${activities.map(a => `<span class="activity-tag">${a}</span>`).join('')}
+                                </div>
+                            ` : ''}
+                            <div class="result-description">
+                                ${doc.description || 'No description available.'}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            } else {
+                resultsList.innerHTML = '<div class="empty">No results found. Try a different query.</div>';
+            }
+        }
+
+        function clearResults() {
+            document.getElementById('queryInput').value = '';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+        }
+
+        // Allow Enter key to trigger search
+        document.getElementById('queryInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+    </script>
+</body>
+</html>
+
