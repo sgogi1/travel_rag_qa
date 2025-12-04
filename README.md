@@ -48,7 +48,7 @@ Improvement:        +40-45% recall gain
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/travel_rag_qa.git
+git clone https://github.com/sgogi1/travel_rag_qa.git
 cd travel_rag_qa
 
 # Create virtual environment
@@ -262,11 +262,11 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
-**Your Name**
+**Sareen Gogi**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@sgogi1](https://github.com/sgogi1)
+- LinkedIn: [Sareen Gogi](www.linkedin.com/in/sareengogi)
+- Email: sareengogi@gmail.com
 
 ## 🙏 Acknowledgments
 
