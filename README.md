@@ -35,10 +35,6 @@ Baseline BM25:      ~50-60% recall
 Improved System:    ~95%+ recall
 Improvement:        +40-45% recall gain
 
-Test Coverage:      57%+ (76+ tests)
-API Response Time:  <100ms (p95)
-Vector Search:      <50ms (p95)
-Hybrid Search:      <80ms (p95)
 ```
 
 ## 🛠 Quick Start
