@@ -4,7 +4,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green.svg)](https://fastapi.tiangolo.com/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.1-orange.svg)](https://www.langchain.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-76+-passing-brightgreen.svg)](https://github.com/sgogi1/travel_rag_qa/tree/main/tests)
+[![Tests](https://img.shields.io/badge/Tests-76%2B-passing-brightgreen.svg)](https://github.com/sgogi1/travel_rag_qa/tree/main/tests)
 
 **Production-ready RAG system achieving 95%+ recall through structured field extraction, LLM-powered query rewriting, and hybrid search (BM25 + Vector).**
 
