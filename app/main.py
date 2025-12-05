@@ -5,11 +5,9 @@ Provides endpoints for search, query rewriting, and chat.
 
 import os
 import sys
-from typing import Optional, List
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 # Add parent directory to path for imports
