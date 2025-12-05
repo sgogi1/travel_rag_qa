@@ -265,7 +265,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 **Sareen Gogi**
 
 - GitHub: [@sgogi1](https://github.com/sgogi1)
-- LinkedIn: [Sareen Gogi](www.linkedin.com/in/sareengogi)
+- LinkedIn: [Sareen Gogi](https://www.linkedin.com/in/sareengogi)
 - Email: sareengogi@gmail.com
 
 ## 🙏 Acknowledgments
